@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.glow 
+{
+  font-size: 40px;
+  color:#003300;
+  text-align: left;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+body {font-family: Arial ; background: linear-gradient(to top, #003366 0%, #ccffff 100%);;}
+* {box-sizing: border-box;}
+
+input[type=text],  textarea, input {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  width:60%;
+  background: linear-gradient(to bottom right, #66ffff 0%, #ccccff 100%);
+  padding: 30px;
+  margin-left:20%;
+  padding-left: 15%;
+}
+</style>
+</head>
+<body>
+
+<h1 class="glow" style="font-size:70px;font-family:broadway;text-align:center;">GET IN TOUCH</h1>
+<p style="text-align:center;font-size:30px;font-family:curlz MT;"> <u>  Please fill out the quick form and we will be in touch with you at the earliest! </u> </p>
+
+<div class="container">
+  <form action="file:///C:/Users/VARSHESH/Downloads/sports%20club%20project/bullz.html">
+    <label for="fname">First Name :</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+</br>
+    <label for="lname">Last Name :</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+</br>
+    <label>   Phone : </label>  
+	<input type="text" name="phone" size="10" maxlength="10"> <br> <br>  
+	<label>   Email:   </label>  
+	<input type="email" id="email" name="email"> <br>    
+<br> <br>  
+	</br>
+    <label for="subject">Subject</label>
+</br>
+    <textarea title="ONLY 300 CHARACTERS CAN BE ENTERED" id="subject" name="subject" placeholder="Write something.." style="height:200px" maxlength="300" ></textarea>
+</br>
+    <input type="submit" value="Submit">
+  </form>
+  </br></br>
+</div>
+</div>
+</body>
+</html>
